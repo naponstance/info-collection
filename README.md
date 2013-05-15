@@ -1,0 +1,4 @@
+info-collection
+===============
+
+some information
