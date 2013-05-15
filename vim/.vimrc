@@ -11,6 +11,8 @@ set showcmd
 set number
 
 
+" 安装Vundle
+" git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 set nocompatible    " be iMproved
 filetype off        " required!
 set rtp+=~/.vim/bundle/vundle/
