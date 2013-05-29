@@ -11,6 +11,8 @@ set ruler
 set showcmd
 set number
 
+" 文件搜索替换
+" :[range]s[ubstitute]/{pattern}/{string}/[cgie] [count] 
 
 " vim配置文件引用
 " source /path/to/external/file
