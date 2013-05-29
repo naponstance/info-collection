@@ -11,7 +11,6 @@ set ruler
 set showcmd
 set number
 
-set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
 " vim配置文件引用
 " source /path/to/external/file
@@ -43,7 +42,7 @@ Bundle 'gmarik/vundle'
 "用全新的方式在文档中高效的移动光标，革命性的突破
 "Bundle 'EasyMotion'
 "自动识别文件编码；
-"Bundle 'FencView.vim'
+Bundle 'FencView.vim'
 "必不可少，在VIM的编辑窗口树状显示文件目录
 Bundle 'The-NERD-tree'
 "NERD出品的快速给代码加注释插件，选中，`ctrl+h`即可注释多种语言代码；
