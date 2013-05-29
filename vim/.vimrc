@@ -5,14 +5,21 @@ colorscheme evening
 set hlsearch
 set incsearch
 set nowrapscan
+set incsearch
 
 set ruler
 set showcmd
 set number
 
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+
+" vim配置文件引用
+" source /path/to/external/file
 
 " 安装Vundle
 " git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
+
 set nocompatible    " be iMproved
 filetype off        " required!
 set rtp+=~/.vim/bundle/vundle/
