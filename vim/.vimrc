@@ -56,6 +56,16 @@ Bundle 'The-NERD-tree'
 "迄今位置最好的自动VIM自动补全插件了吧
 "Vundle的这个写法，是直接取该插件在Github上的repo
 "Bundle 'Valloric/YouCompleteMe'
+"A terminal emulator inside vim without extra dependencies
+Bundle 'vterm'
+" 很强大的文件查找工具，需要依赖L9
+Bundle 'FuzzyFinder'
+" 
+Bundle 'L9'
+"Vim Bash IDE
+Bundle 'bash-support.vim'
+
+
 
 filetype plugin indent on    " required!
 
